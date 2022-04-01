@@ -273,7 +273,8 @@ s .showcase-form input:focus {
   }
 
   .stats {
-    padding: 5rem;
+    margin-top: 80px;
+    padding: 10px;
   }
 }
 
