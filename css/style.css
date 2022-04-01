@@ -160,7 +160,7 @@ s .showcase-form input:focus {
 /* stats */
 .stats {
   animation: slideInFromBottom 1s ease-in;
-  padding: 150px;
+  padding: 12rem;
 }
 
 .stats-heading {
@@ -248,10 +248,17 @@ s .showcase-form input:focus {
     margin: auto;
     animation: slideInFromRight 1s ease-in;
   }
+
+
 }
 
 /* Mobile */
 @media(max-width:500px) {
+  .grid, .showcase .grid, .stats .grid, .cli .grid, .cloud .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .navbar {
     height: 110px;
   }
@@ -263,6 +270,10 @@ s .showcase-form input:focus {
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .stats {
+    padding: 5rem;
   }
 }
 
